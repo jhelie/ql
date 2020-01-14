@@ -243,7 +243,7 @@ private module NpmPackagePortal {
  *
  * This is a somewhat crude way of preventing us from constructing infinitely many portals.
  */
-private int maxdepth() { result = 10 }
+private int maxdepth() { result = 5 }
 
 /**
  * A portal that is constructed over some base portal.
